@@ -76,4 +76,8 @@ $$
 
 ### Compression of a scanned document using rank decomposition
 
+<br>
+<img src="https://github.com/Beorhthelm/scanned_document_processing/blob/70ca8b54670de865495e435606fe076945cb5d7b/pic/Alexander_Pushkin_Eugene_Onegin1.png?raw=true" alt="Sample" width="250" style="display:block;margin-left:auto;margin-right:auto">
+<br>
+
 As an example of scanned document, we consider such rectangular black and white matrix. Here we have a piece of the Eugene Onegin novel written by Alexander Pushkin. So each entry of the matrix has one of two values, for example, zero or one, this means black or white this pixel is. So we could apply the rank decomposition to compress this image, namely to obtain two matrices that will have smaller size. Note that it works because the matrix has many totally white rows or totally white columns, so this compression can indeed reduce the size. One should note that it's not the best way to compress an image or even scanned document. The algebra has some more efficient tools.
